@@ -1,0 +1,1 @@
+cat mini-purchase.txt | python3 mapper.py |  python3 reducer.py > estadistica3.txt
