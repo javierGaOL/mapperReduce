@@ -1,2 +1,6 @@
 cat testfile.txt | ./mapper | sort | ./reducer
 
+
+
+mapred streaming -files mapper.py,reducer.py -input PURCHASES/purchases.txt -output COMPRASXTENDA -mapper "python mapper.py" -reducer "python reducer.py"
+
